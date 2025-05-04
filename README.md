@@ -12,6 +12,14 @@
 
 Обе системы должны находится в одной подсети.
 
+#### Решение:
+##### Установка Suricata
+![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_001.png)
+##### Установка Fail2Ban
+![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_003.png)
+##### Установка nmap и hydra
+![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_002.png)
+
 ------
 
 ### Задание 1
