@@ -14,11 +14,11 @@
 
 #### Решение:
 ##### Установка Suricata
-![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_001.png)
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_001.png)
 ##### Установка Fail2Ban
-![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_003.png)
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_003.png)
 ##### Установка nmap и hydra
-![13-02](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_002.png)
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_002.png)
 
 ------
 
@@ -38,6 +38,24 @@
 
 
 *В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.*
+
+#### Решение:
+
+##### **sudo nmap -sA 192.168.2.171. 
+*** Сканирование nmap -sA (ACK) в логи suricata не попало.
+
+##### **sudo nmap -sT 192.168.2.171
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_004.png)
+
+##### **sudo nmap -sS 192.168.2.171
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_005.png)
+
+##### **sudo nmap -sV 192.168.2.171
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_006.png)
+
+##### В логах fail2ban зафиксировано только сканирование nmap -sV
+![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_007.png)
+
 
 ------
 
