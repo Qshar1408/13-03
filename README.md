@@ -86,11 +86,17 @@
 ![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_009.png)
 
 ##### Подбор пароля по ssh (fail2ban - после включения защиты ssh)
-*** статус fail2ban
+
+**статус fail2ban
+
 ![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_010.png)
-*** логи suricata
+
+**логи suricata
+
 ![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_011.png)
-*** логи auth.log
+
+**логи auth.log
+
 ![13-03](https://github.com/Qshar1408/13-03/blob/main/img/hw_13_03_012.png)
 
 *В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.*
